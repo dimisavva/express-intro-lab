@@ -8,7 +8,6 @@
   "name": "express-intro-lab",
   "version": "1.0.0",
   "main": "server.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dimisavva/express-intro-lab.git"
