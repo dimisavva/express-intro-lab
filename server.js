@@ -19,12 +19,12 @@ app.set('view engine', 'ejs')
 // Mount routes
 
 app.get('/', function(req, res){
-  res.send('<h1>Sell, sell!</h1>')
+  res.redirect('/homes')
 })
 
-app.get('/real', function(req, res) {
-  res.redirect('/home') //redirect ALWAYS with a slash
-  })
+// app.get('/real', function(req, res) {
+//   res.redirect('/home') //redirect ALWAYS with a slash
+//   })
 
 
 app.get('/home', function(req, res){
