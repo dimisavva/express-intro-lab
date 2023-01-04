@@ -2,6 +2,7 @@
 
 import express from 'express'
 
+import { homes } from './data/homes-data.js'
 
 // Create Express app
 
@@ -28,6 +29,12 @@ app.get('/real', function(req, res) {
 
 app.get('/home', function(req, res){
   res.render('home') //render NEVER with a slash
+  })
+
+  app.get('/homes', function(req, res){
+    res.render('homes/index', {
+      homes:homes
+    })
   })
 
 // Tell the app to listen on port 3000
