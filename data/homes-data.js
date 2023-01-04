@@ -5,12 +5,12 @@ const homes = [
       _id: 123456
   },
   {
-      breed: '321 Orange Dr',
+      address: '321 Orange Dr',
       isAffordable: false,
       _id: 123654
   },
   {
-      breed: '69 Kings Rd',
+      address: '69 Kings Rd',
       isAffordable: true,
       _id: 123645
   },
